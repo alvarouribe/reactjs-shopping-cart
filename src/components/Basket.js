@@ -4,8 +4,10 @@ export default function Basket(props) {
   const { cartItems, onAdd, onRemove, onRemoveAll } = props;
 
   const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
-  const GST = itemsPrice * 0.15; // gst 15%
   const totalPrice = itemsPrice;
+  // For GST coment last line and uncomment the following
+  // const GST = itemsPrice * 0.15;
+  // const totalPrice = itemsPrice + GST;
 
   return (
     <aside className="basket block col-1">
@@ -19,24 +21,24 @@ export default function Basket(props) {
 
             <div className="col-2">
               { item.name } { ' ' }
-              <button onClick={() => onRemove(item)} className="remove">
-                -
-              </button>
 
-              <button onClick={() => onAdd(item)} className="add">
-                +
-              </button>
+              <div className="cart-controls">
+                <button onClick={() => onRemove(item)} className="remove">-</button>
+                <span className="cart-qty">{ item.qty }</span>
+                <button onClick={() => onAdd(item)} className="add">+</button>
+              </div>
 
               <br/>
-              ${ item.price.toFixed(2) } x { item.qty }
+              ${ item.price.toFixed(2) }
             </div>
 
             <div className="col-1">
               <div className="text-right">
                 Total: ${ (item.price.toFixed(2) * item.qty).toFixed(2) }
-                <button onClick={() => onRemoveAll(item)} className="remove-all">
-                  X
-                </button>
+                <br/>
+                <a href="/#" onClick={() => onRemoveAll(item)} className="">
+                  Remove
+                </a>
               </div>
             </div>
           </div>
