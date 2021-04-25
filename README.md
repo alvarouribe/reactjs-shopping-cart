@@ -1,6 +1,7 @@
 # Welcome to the MVM Shopping cart
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project shows a basic way to build a reactJS shopping cart.
 
 ## Available Scripts
 
