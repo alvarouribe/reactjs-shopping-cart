@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project shows a basic way to build a reactJS shopping cart.
+Just a couple of tests were included in the app for the time limit of the task.
 
 ## Styles
 
