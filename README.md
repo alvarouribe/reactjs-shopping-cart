@@ -4,6 +4,24 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project shows a basic way to build a reactJS shopping cart.
 Just a couple of tests were included in the app for the time limit of the task.
 
+## Setup
+
+To start the project [download the zip](https://github.com/alvarouribe/reactjs-shopping-cart/archive/refs/heads/main.zip) file or use git clone
+
+`git clone git@github.com:alvarouribe/reactjs-shopping-cart.git`
+
+Then you can enter the folder and start the application with the following commands in your terminal:
+
+`cd reactjs-shopping-cart`
+
+`yarn install`
+
+`yarn start`
+
+That should start the application in development mode in the url
+
+`http://localhost:3000/#`
+
 ## Styles
 
 Reusable css were implemented in index.css file and component specific styles were added with the style attribute inside the components
