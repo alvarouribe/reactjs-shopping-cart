@@ -12,10 +12,6 @@ export default function Basket(props) {
   const basketStyle = {
     backgroundColor: '#fafafa',
     minWidth: '14rem',
-    padding: '1rem',
-    margin: '0.5rem',
-    borderRadius: '0.5rem',
-    flex: 1,
   }
 
   const addStyle = {
@@ -53,7 +49,7 @@ export default function Basket(props) {
   }
 
   return (
-    <aside style={ basketStyle }>
+    <aside style={ basketStyle } className="block col-1">
       <h2>Cart items</h2>
 
       <div>

@@ -7,9 +7,6 @@ export default function Header(props) {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '1rem',
-    margin: '0.5rem',
-    borderRadius: '0.5rem',
   };
 
   const badgeStyle = {
@@ -22,7 +19,7 @@ export default function Header(props) {
   }
 
   return (
-    <header style={ headerStyle }>
+    <header style={ headerStyle } className="block">
       <div>
         <h1>MVM Shopping cart</h1>
       </div>
