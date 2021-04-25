@@ -17,17 +17,21 @@ export default function Basket(props) {
     borderRadius: '0.5rem',
     flex: 1,
   }
+
   const addStyle = {
     backgroundColor: 'rgba(142, 137, 219, .4)',
     width: '1.5rem',
   }
+
   const removeStyle = {
     backgroundColor: 'rgba(142, 137, 219, .6)',
     width: '1.5rem',
   }
+
   const removeAllStyle = {
     textDecoration: 'underline',
   }
+
   const emptyCartStyle = {
     margin: '0.5rem',
   }
