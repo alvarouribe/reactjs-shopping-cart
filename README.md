@@ -3,6 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project shows a basic way to build a reactJS shopping cart.
 
+## Styles
+
+Reusable css were implemented in index.css file and component specific styles were added with the style attribute inside the components
+
 ## Available Scripts
 
 In the project directory, you can run:
