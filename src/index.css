@@ -26,10 +26,15 @@ a {
   text-decoration: none;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
 }
+
 
 .col-1 {
   flex: 1;
@@ -43,15 +48,6 @@ a {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
-}
-
-.basket {
-  background-color: #fafafa;
-  min-width: 14rem;
-}
-
-.row.center {
-  align-items: center;
 }
 
 button {
@@ -73,13 +69,3 @@ button:active {
   color: white;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
