@@ -27,6 +27,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
+After running `yarn build` your build folder is ready to be deployed.
+You may serve it with a static server:
+
+  `yarn global add serve`
+
+  `serve -s build`
+
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
