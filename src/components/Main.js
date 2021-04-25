@@ -6,7 +6,7 @@ export default function Main(props) {
 
   return (
     <main className="block col-2">
-      <h2>Products</h2>
+      <h2 class="text-center">Products</h2>
       <div className="products row">
         {products.map((product, index) => (
           <Product key={index} product={product} onAdd={onAdd}></Product>
